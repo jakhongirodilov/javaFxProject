@@ -18,7 +18,7 @@
                 <Menu mnemonicParsing="false" text="Home" />
                 <Menu mnemonicParsing="false" text="Students" />
                 <Menu mnemonicParsing="false" text="Professors" />
-                <Menu mnemonicParsing="false" text="Announcements" />
+                <Menu mnemonicParsing="false" text="Courses" />
                 <Menu mnemonicParsing="false" text="Timetable" />
                 <Menu mnemonicParsing="false" text="Log Out" />
             </menus>
@@ -34,7 +34,7 @@
         </Button>
         <ScrollPane layoutX="43.0" layoutY="188.0" prefHeight="399.0" prefWidth="758.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0">
             <content>
-                <TableView prefHeight="439.0" prefWidth="1470.0">
+                <TableView prefHeight="439.0" prefWidth="1515.0">
                     <columns>
                         <TableColumn prefWidth="148.0" text="ID" />
                         <TableColumn prefWidth="177.0" text="First Name" />
@@ -42,7 +42,6 @@
                         <TableColumn prefWidth="327.0" text="Email" />
                         <TableColumn minWidth="7.0" prefWidth="217.0" text="Password" />
                         <TableColumn minWidth="7.0" prefWidth="196.0" text="Subjects" />
-                  <TableColumn prefWidth="196.0" text="Groups" />
                     </columns>
                 </TableView>
             </content>

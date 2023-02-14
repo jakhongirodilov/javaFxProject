@@ -13,7 +13,7 @@
                 <Menu mnemonicParsing="false" text="Home" />
                 <Menu mnemonicParsing="false" text="Students" />
                 <Menu mnemonicParsing="false" text="Professors" />
-                <Menu mnemonicParsing="false" text="Announcements" />
+                <Menu mnemonicParsing="false" text="Courses" />
                 <Menu mnemonicParsing="false" text="Timetable" />
                 <Menu mnemonicParsing="false" text="Log Out" />
             </menus>
