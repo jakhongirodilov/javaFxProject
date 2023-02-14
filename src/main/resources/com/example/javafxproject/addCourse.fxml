@@ -13,19 +13,38 @@
 
 <AnchorPane prefHeight="606.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.Students">
     <children>
-        <MenuBar style="-fx-background-color: #2F70AF; -fx-font-size: 20px;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <MenuBar layoutX="-55.0" layoutY="-80.0" prefWidth="1058.0" style="-fx-background-color: #2F70AF; -fx-font-size: 20px;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <menus>
-                <Menu mnemonicParsing="false" text="Home" />
-                <Menu mnemonicParsing="false" text="Students" />
-                <Menu mnemonicParsing="false" text="Professors" />
-                <Menu mnemonicParsing="false" text="Courses" />
-                <Menu mnemonicParsing="false" text="Timetable" />
-                <Menu mnemonicParsing="false" text="Log Out" />
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="80.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Home" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="160.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Students" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="170.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Professors" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="155.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Courses" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="159.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Timetable" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="130.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Log Out" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
             </menus>
             <padding>
                 <Insets bottom="10.0" left="30.0" top="10.0" />
             </padding>
         </MenuBar>
+
         <VBox layoutX="217.0" layoutY="180.0" prefHeight="424.0" prefWidth="380.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-radius: 10px;" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="180.0">
             <children>
                 <HBox prefHeight="58.0" prefWidth="580.0">
