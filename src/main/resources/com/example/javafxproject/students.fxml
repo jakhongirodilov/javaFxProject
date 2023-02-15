@@ -11,13 +11,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="587.0" prefWidth="1282.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.Students">
+<AnchorPane prefHeight="778.0" prefWidth="1187.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.Students">
     <children>
         <MenuBar layoutX="-55.0" layoutY="78.0" prefWidth="1098.0" style="-fx-background-color: #2F70AF; -fx-font-size: 20px;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <menus>
                 <Menu mnemonicParsing="false">
                     <graphic>
-                        <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="80.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Home" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="169.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Home" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
                     </graphic></Menu>
                 <Menu mnemonicParsing="false">
                     <graphic>
@@ -47,14 +47,14 @@
 
 
         <Text layoutX="64.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25;" text="Students List" wrappingWidth="148.5234375" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="387.4765625" AnchorPane.topAnchor="100.0" />
-      <Button contentDisplay="RIGHT" layoutX="568.0" layoutY="90.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="202.0" text="Add Student" textOverrun="CENTER_ELLIPSIS" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="100.0">
+      <Button contentDisplay="RIGHT" layoutX="568.0" layoutY="90.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="202.0" style="-fx-background-color: #2F70AF;" text="Add Student" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="100.0">
          <font>
             <Font size="22.0" />
          </font>
       </Button>
-      <ScrollPane layoutX="43.0" layoutY="188.0" prefHeight="399.0" prefWidth="758.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0">
+      <ScrollPane layoutX="43.0" layoutY="188.0" prefHeight="550.0" prefWidth="1027.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0">
          <content>
-            <TableView maxWidth="-Infinity" prefHeight="439.0" prefWidth="1584.0">
+            <TableView maxWidth="-Infinity" prefHeight="567.0" prefWidth="1584.0">
               <columns>
                 <TableColumn prefWidth="148.0" text="ID" />
                 <TableColumn prefWidth="177.0" text="First Name" />
