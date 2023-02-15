@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="837.0" prefWidth="1337.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <MenuBar layoutX="-55.0" layoutY="-80.0" prefWidth="1058.0" style="-fx-background-color: #2F70AF; -fx-font-size: 20px;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+                <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="91.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Home" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+               </graphic></Menu>
+                <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="160.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Courses" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+               </graphic></Menu>
+                <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="170.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Timetable" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+               </graphic></Menu>
+                <Menu mnemonicParsing="false" />
+                <Menu mnemonicParsing="false" />
+                <Menu mnemonicParsing="false">
+               <graphic>
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="130.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Log Out" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+               </graphic></Menu>
+            </menus>
+            <padding>
+                <Insets bottom="10.0" left="30.0" top="10.0" />
+            </padding>
+        </MenuBar>
+    </children>
+   <cursor>
+      <Cursor fx:constant="OPEN_HAND" />
+   </cursor>
+</AnchorPane>
