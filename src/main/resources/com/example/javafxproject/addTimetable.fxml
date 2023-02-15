@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="606.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.HelloController">
+    <children>
+        <MenuBar layoutX="-55.0" layoutY="-80.0" prefWidth="1058.0" style="-fx-background-color: #2F70AF; -fx-font-size: 20px;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <menus>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="171.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Home" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="160.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Students" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="170.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Professors" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="155.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Courses" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="159.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Timetable" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+                <Menu mnemonicParsing="false">
+                    <graphic>
+                        <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="130.0" scaleShape="false" style="-fx-background-color: #2F70AF;" text="Log Out" textFill="WHITE" textOverrun="LEADING_ELLIPSIS" />
+                    </graphic></Menu>
+            </menus>
+            <padding>
+                <Insets bottom="10.0" left="30.0" top="10.0" />
+            </padding>
+        </MenuBar>
+
+        <VBox layoutX="217.0" layoutY="180.0" prefHeight="424.0" prefWidth="380.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-radius: 10px;" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="180.0">
+            <children>
+                <HBox prefHeight="58.0" prefWidth="580.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Year:" wrappingWidth="154.076171875">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </Text>
+                        <TextField prefHeight="30.0" prefWidth="548.0" style="-fx-border-radius: 10px; -fx-background-radius: 10px;" />
+                    </children>
+                    <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                    </padding>
+                </HBox>
+                <HBox prefHeight="58.0" prefWidth="580.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Week day:" wrappingWidth="154.076171875">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </Text>
+                        <TextField prefHeight="30.0" prefWidth="548.0" style="-fx-border-radius: 10px; -fx-background-radius: 10px;" />
+                    </children>
+                    <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                    </padding>
+                </HBox>
+                <HBox prefHeight="58.0" prefWidth="580.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1st lesson:" wrappingWidth="154.076171875">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </Text>
+                        <TextField prefHeight="30.0" prefWidth="548.0" style="-fx-border-radius: 10px; -fx-background-radius: 10px;" />
+                    </children>
+                    <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                    </padding>
+                </HBox>
+                <HBox prefHeight="58.0" prefWidth="580.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2nd lesson:" wrappingWidth="154.076171875">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </Text>
+                        <TextField prefHeight="30.0" prefWidth="548.0" style="-fx-border-radius: 10px; -fx-background-radius: 10px;" />
+                    </children>
+                    <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                    </padding>
+                </HBox>
+                <HBox prefHeight="58.0" prefWidth="580.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3rd lesson:" wrappingWidth="154.076171875">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </Text>
+                        <TextField prefHeight="30.0" prefWidth="548.0" style="-fx-border-radius: 10px; -fx-background-radius: 10px;" />
+                    </children>
+                    <padding>
+                        <Insets bottom="20.0" top="20.0" />
+                    </padding>
+                </HBox>
+                <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="147.0" style="-fx-background-color: #2F70AF;" text="Create" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" top="20.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+            </padding>
+        </VBox>
+        <Text layoutX="306.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Timetable" wrappingWidth="380.0000000000001">
+            <font>
+                <Font name="System Bold" size="30.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
